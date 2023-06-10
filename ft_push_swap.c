@@ -6,7 +6,7 @@
 /*   By: alvalope <alvalope@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/27 10:20:27 by alvalope          #+#    #+#             */
-/*   Updated: 2023/06/08 13:52:26 by alvalope         ###   ########.fr       */
+/*   Updated: 2023/06/10 18:41:11 by alvalope         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,7 +45,7 @@ int	main(int argc, char *argv[])
 			n = ft_check_args(argv, argc, &n, &n_n);
 		if (!n)
 		{
-			write(2, "Error2\n", 6);
+			write(2, "Error\n", 6);
 			free(n);
 		}
 		else

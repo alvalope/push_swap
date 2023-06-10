@@ -6,7 +6,7 @@
 /*   By: alvalope <alvalope@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/27 14:56:49 by alvalope          #+#    #+#             */
-/*   Updated: 2023/06/08 13:55:45 by alvalope         ###   ########.fr       */
+/*   Updated: 2023/06/10 18:40:33 by alvalope         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -69,6 +69,11 @@ int	*ft_check_list(char *list, int *n_n)
 			{
 				if (ft_check_repeat_num(a_nums, *n_n))
 					return (a_nums);
+				else
+				{
+					free (a_nums);
+					return (0);
+				}
 			}
 		}
 	}
